@@ -1,0 +1,39 @@
+#firstBox {
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    left : 10vw ;
+    border: 0.01vw solid hotpink;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+#sentence {
+    width: 60vw;
+    margin-bottom: 1vw;
+}
+
+#outputBox {
+    width: 70vw;
+    margin-bottom: 1vw;
+}
+
+#output {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    height: 8em;
+    max-height: 8em;
+    overflow-y: scroll;
+    background-color: lightgray;
+}
+
+#output li {
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+}
+
+#label {
+    color: darkslategray;
+
+}
